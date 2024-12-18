@@ -1,5 +1,5 @@
 # FileCompressor
-## File compression and decompression using Huffman
+## *File compression and decompression using Huffman*
 
 ## Usage
 ### First - make a compression object:
