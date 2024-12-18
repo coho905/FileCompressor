@@ -19,5 +19,6 @@ test.decompressFile(pathNameCompressed, pathNameDecompressed, makeCodeTree((Hash
 + feel free to use, it is 0-loss and reasonably efficient
 + Update: allow for command line path arguments (and compression vs decompression, not just both)
 + pull requests welcome!
++ Example files (alongside the compressed and decompressed versions are visible in examples/
 
 Education-Restricted License 2024, Colin Wolfe
