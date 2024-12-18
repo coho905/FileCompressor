@@ -8,11 +8,11 @@ HuffmanCompression test = new HuffmanCompression();
 ```
 ### Compression: 
 ```java
-compressFile((HashMap<Character, String>) computeCodes(makeCodeTree((HashMap<Character, Long>) countFrequencies(pathName))), pathName, pathNameCompressed); //Where pathName is current file and pathNameCompressed is the desired filename
+test.compressFile((HashMap<Character, String>) computeCodes(makeCodeTree((HashMap<Character, Long>) countFrequencies(pathName))), pathName, pathNameCompressed); //Where pathName is current file and pathNameCompressed is the desired filename
 ```
 ### Decompression:
 ```java
-decompressFile(pathNameCompressed, pathNameDecompressed, makeCodeTree((HashMap<Character, Long>) countFrequencies(pathName))); //Where pathNameCompressed is current file and pathNameDecompressed is the desired filename
+test.decompressFile(pathNameCompressed, pathNameDecompressed, makeCodeTree((HashMap<Character, Long>) countFrequencies(pathName))); //Where pathNameCompressed is current file and pathNameDecompressed is the desired filename
 ```
 
 ## Notes
